@@ -1,0 +1,147 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    justify-content: center;
+  }
+p, h,li {
+    color:white;
+}
+H1{
+    color:rgb(255, 140, 0);
+}
+div{
+    border-color:rgb(255, 140, 0) ;
+}
+a {
+    color:white;
+    font: 12px  arial;
+    text-decoration: none;
+}
+header{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+header,nav{
+    display:flex;
+}
+.text{
+    justify-content: center;
+    padding-top: 425px;
+    padding-bottom:425px
+
+}
+.wrapper{
+    background-color:rgb(38, 37, 35);
+    min-width: fit-content;
+}
+.table-container{
+    padding-top: 80px;
+    border-color:rgb(255, 140, 0);
+    border-width: 1px;
+    justify-content: center;
+}
+.table-cell{
+    border-color:rgb(255, 140, 0);
+    border-width: 1px;
+    border-style: solid;
+}
+.set1,.set2, .set3{
+    display:flex;
+}
+.set1{
+    margin:auto;
+}
+.dis {
+    padding-top:275px;
+    padding-left: 30px;
+    padding-right: 975px;
+    border-color:rgb(255, 140, 0);
+    border-width: 1px;
+    border-style: solid;
+}
+ .table-cell, .set1{
+    max-width:1780px;
+    height: 700px;
+    min-width: 490px;
+}
+.set2 p{
+    justify-content: center;
+}
+.table-cell .set2{
+    max-width:480px;
+    height: 500px;
+    min-width: 490px;
+}
+a.active {
+    Color:rgb(255, 160, 122);
+}
+nav,a{
+    display:flex;
+    padding:15px;
+}
+nav{
+    margin-left: auto;
+    padding:15px;
+    margin-right:0px;
+}
+header,p{
+    margin-left: 0px;
+    padding:15px;
+}
+a:hover{
+    color:rgb(255, 140, 0);
+}
+a.active{
+    color:rgb(255, 140, 0) ;
+}
+.icon{
+    justify-content: center;
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+.tab{
+    border-color:rgb(255, 140, 0) ;
+    padding-top:80px;
+}
+
+.otziv{
+    display:flex;
+    height:425px ;
+    background-color:rgb(38, 37, 35);
+    border-color: rgb(255, 140, 0);
+}
+.otvet{
+    background-color:rgb(255, 140, 0);
+    color:white;
+    border-color: rgb(255, 140, 0);
+    padding:200px  100px 200px 5px;
+}
+footer{
+    background-color:rgb(38, 37, 35);
+    display: flex;
+    color:rgb(255, 140, 0);
+.button{
+    color:white;
+    background-color:orange;
+    text-decoration:none
+}
+#comment {
+    background-color: rgb(255, 140, 0);
+    font: 50px arial;
+}
+.col{
+    border-style: solid;
+    border-color:rgb(255, 140, 0);
+    border-width:1px;
+}
+#orange{
+}
+}
+
+
+
+
+
