@@ -37,8 +37,7 @@ nav{
     margin-left: auto;
     padding:15px;
     margin-right:0;
-    color:white;
-    text-decoration:none;
+
 }
 header, p{
     margin-left: 0;
@@ -48,17 +47,16 @@ a:hover{
     color:rgb(255, 140, 0);
 }
 .icon{
-    margin:10px auto;
-    padding:30px;
-    width: 50px;
-    height: 50px;
+    padding:10px;
+    width: 15px;
+    height: 150px;
+    display:block;
 }
 footer{
     background-color:rgb(38, 37, 35);
     display: flex;
     color:rgb(255, 140, 0);
-    padding:10px 100px;
-    margin-bottom:10%;
+    padding:2% 10% 20% 10%;
 }
 .button{
     color:white;
@@ -71,9 +69,8 @@ footer{
 }
 .comment{
     background-color: rgb(255, 140, 0);
-
 }
-.col{
+.orange{
     border-style: solid;
     border-color:rgb(255, 140, 0);
     border-width:1px;
@@ -85,6 +82,12 @@ footer{
 }
 .text{
     margin:auto;
+    text-align:center;
+    padding-top:22%;
+    padding-bottom:15%
+
+}
+.text p{
 
 }
 .text h1{
@@ -129,9 +132,11 @@ footer{
 }
 img{
     background-size: cover;
+    display:block;
 }
-.container-fluid{
-    padding:100px 100px;
+.container{
+    padding:100px ;
+    margin:0;
 }
 .comments h2{
     color:rgb(255, 140, 0);
@@ -139,4 +144,16 @@ img{
 }
 .yel{
     color:rgb(255, 140, 0);
+}
+.image{
+
+
+}
+.button-nav{
+    color:white;
+    border-style:solid;
+
+    text-decoration:none;
+    border-width:2px;
+    border-color:white;
 }
