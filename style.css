@@ -46,6 +46,9 @@ header, p{
 a:hover{
     color:rgb(255, 140, 0);
 }
+ul{
+    decoration:none;
+}
 .icon{
     padding:10px;
     width: 15px;
@@ -67,6 +70,14 @@ footer{
     margin:20px auto;
     padding:10px;
 }
+.button1{
+    color:white;
+    background-color:orange;
+    text-decoration:none;
+    width:160px;
+    font:bold 20px Arial;
+    padding:10px;
+}
 .comment{
     background-color: rgb(255, 140, 0);
 }
@@ -80,15 +91,11 @@ footer{
     background-color: rgb(255, 140, 0);
     text-align: center;
 }
-.text{
-    margin:auto;
-    text-align:center;
-    padding-top:22%;
-    padding-bottom:15%
-
-}
-.text p{
-
+.text {
+    margin: auto;
+    text-align: center;
+    padding-top: 22%;
+    padding-bottom: 15%
 }
 .text h1{
     color:white;
@@ -140,20 +147,17 @@ img{
 }
 .comments h2{
     color:rgb(255, 140, 0);
-
 }
 .yel{
     color:rgb(255, 140, 0);
 }
-.image{
-
-
-}
 .button-nav{
     color:white;
     border-style:solid;
-
     text-decoration:none;
     border-width:2px;
     border-color:white;
+}
+.right{
+    text-align:right;
 }
